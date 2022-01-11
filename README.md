@@ -71,11 +71,11 @@ the question and answer section. The average rating is displayed as a star ratin
         CLOUDINARY_SECURE_DELIVERY_URL: '',
         CLOUDINARY_UPLOAD_PRESET: '',
       };
-      ```
+      
    
-   > `server/controllers` requires github Auth token and cloudinary API tokens too, following the following format
+> `server/controllers` requires github Auth token and cloudinary API tokens too, following the following format
      
-  ```const TOKEN = 'githubPATtokenHere';
+    const TOKEN = 'githubPATtokenHere';
      const cloudinaryInfo = {
         CLOUDINARY_NAME: '',
         CLOUDINARY_API_KEY: '',
