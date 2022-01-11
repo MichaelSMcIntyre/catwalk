@@ -70,7 +70,8 @@ the question and answer section. The average rating is displayed as a star ratin
         CLOUDINARY_API_BASE_URL: '',
         CLOUDINARY_SECURE_DELIVERY_URL: '',
         CLOUDINARY_UPLOAD_PRESET: '',
-      };```
+      };
+      ```
    
    > `server/controllers` requires github Auth token and cloudinary API tokens too, following the following format
      
@@ -88,7 +89,8 @@ the question and answer section. The average rating is displayed as a star ratin
     module.exports = {
       TOKEN: TOKEN,
       cloudinaryInfo: cloudinaryInfo
-    };```
+    };
+    ```
 
 3. Run webpack in development with:
 
